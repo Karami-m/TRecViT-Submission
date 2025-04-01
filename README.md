@@ -12,6 +12,7 @@
 | Griffin range [0.9, 0.999]       | 65.8 |
 | Eigenvalues (A) ~0.0             | 66.2 |
 
+---
 
 
 **Table 2: Performance and training speed of different temporal modules on SSv2**
@@ -24,8 +25,13 @@
 | TRecViT                                  | **66.7**| 8.9                      |
 
 
+---
 
 
 ![TFLOPS vs. Number of Frames](TFLOP-NF.png)
+*Figure 1: TFLOP comparison.*
+
+---
 
 ![Peak Memory (GB) vs. Number of Frames](Memory-NF.png)
+*Figure 2: Peak Memory (GB) comparison.*
