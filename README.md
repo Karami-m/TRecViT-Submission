@@ -25,16 +25,6 @@
 
 
 
-| Ablation                                  | Acc  |
-|-------------------------------------------|------|
-| Gated LRU block                           | **66.7** |
-| No skip connection (lower lr)             | 15.5 |
-| No input gate, no rec gate              | 66.0 |
-| No conv layer                           | 64.9 |
-| Griffin range [0.9, 0.999], all outputs | 65.8 |
-| Eigenvalues ~0.0, all outputs           | 66.2 |
-| Last output only, eigenvalues [0.7, 0.999] | 65.0 |
-| Eigenvalues ~0.0, last output only      | 54.2 |
 
 ![TFLOPS vs. Number of Frames](TFLOP-NF.png)
 
