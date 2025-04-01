@@ -24,7 +24,6 @@
 | TRecViT                                  | **66.7**| 8.9                      |
 
 
-Okay, here is the table converted to Markdown format:
 
 | Ablation                                  | Acc  |
 |-------------------------------------------|------|
